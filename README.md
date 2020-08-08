@@ -1,6 +1,6 @@
 # Minimal CSS
 
-*Make your prototypes look good with a standard minimal css stylesheet (< 1Kb)*
+*Make your prototypes look good with a standard minimal css stylesheet (< 1Kb)!*
 
 ## Demo
 
