@@ -1,0 +1,40 @@
+<h1>Minimal CSS</h1>
+Based on: <a href="https://jgthms.com/web-design-in-4-minutes/">Web Design in 4 minutes</a>
+
+<h2>Text Formating</h2>
+<p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit.</strong> Fusce sollicitudin volutpat nisi et laoreet. Nullam non facilisis mauris, vel viverra leo. Nam ex mauris, finibus a luctus id, semper a mi. Sed vehicula suscipit rutrum. Vestibulum vel mollis massa. In ornare ullamcorper odio, vitae tempus mauris euismod fermentum. Morbi ornare, massa nec placerat feugiat, nisi enim finibus quam, a elementum mauris metus vitae lectus. Nulla facilisis risus et nisl pharetra gravida. <strong>Donec aliquet ullamcorper ipsum id mollis.</strong> Suspendisse rutrum sapien vitae neque dictum, eget semper est ornare. Aliquam consequat vel tellus sit amet scelerisque.</p>
+
+<h2>Buttons</h2>
+<button>Button</button>
+<button disabled="disabled">Disabled</button>
+
+<h2>Forms</h2>
+<form>
+  <input type="text" placeholder="Name" /><br />
+  <input type="email" placeholder="Email" /><br />
+  <input type="password" placeholder="Password" /><br />
+  <fieldset>
+    <legend>Sex</legend>
+    <label for="sex-male"><input id="sex-male" type="radio" name="sex" value="male" />Male</label>
+    <label for="sex-female"><input id="sex-female" type="radio" name="sex" value="female" />Female</label>
+  </fieldset>
+  <fieldset>
+    <legend>Job Title</legend>
+    <label for="job-front-end">
+      <input id="job-front-end" type="checkbox" value="front-end" />Front-end
+    </label>
+    <label for="job-back-end">
+      <input id="job-back-end" type="checkbox" value="back-end" />Back-end
+    </label>
+  </fieldset>
+  <textarea placeholder="Enter a comment"></textarea><br />
+  <input type="submit" value="Submit" />
+  <input type="submit" value="Submit" disabled="disabled" />
+</form>
+
+<h2>Full Width</h2>
+<div class="full-width" style="    background: #ddd;
+    height: 7rem;
+    padding: 1rem;">
+  Also provides a <strong>.full-width</strong> class to break free from the central column!
+</div>
