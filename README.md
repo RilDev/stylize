@@ -20,6 +20,8 @@ To add the Mimial CSS style to your project, simply add this link to your index 
 - [ ] add `pre-commit` hook to run `npm run build && git add style.min.css`
 - [ ] add `<header>` and `<footer>` styling
 - [ ] add `<ul>` styling
+- [ ] add tag for v1
+- [ ] publish package on npm!
 
 ## Acknowledgement
 
