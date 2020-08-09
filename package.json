@@ -1,11 +1,11 @@
 {
-  "name": "minimal-css",
+  "name": "@rildev/minimal-css",
   "version": "1.0.0",
   "description": "Make your prototypes look good with a standard minimal css stylesheet (< 1Kb)!",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx http-server ./",
+    "start": "npx http-server ./ -o",
     "build": "uglifycss style.css > style.min.css"
   },
   "repository": {
@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/RilDev/minimal-css#readme",
   "devDependencies": {
-    "http-server": "^0.12.3",
     "husky": "^4.2.5",
     "uglifycss": "0.0.29"
   },
