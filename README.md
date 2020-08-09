@@ -8,11 +8,61 @@
 
 ## Usage
 
-To add the Mimial CSS style to your project, simply add this link to your index file:
+### Link stylesheet
+
+Simply add this link to your index file:
 
 ```
 <link rel="stylesheet" href="https://rildev.github.io/minimal-css/style.min.css" />
 ```
+
+### NPM Package
+
+Download the NPM Package:
+
+```
+npm install @rildev/minimal-css@1.0.0
+```
+
+Include it minified CSS in your index file:
+
+```
+<link
+  rel="stylesheet"
+  href="node_modules/@rildev/minimal-css/style.min.css"
+/>
+```
+
+Or you can directly import it in your JS file:
+
+```
+import from '@rildev/minimal-css/style.min.css';
+```
+
+## Develop
+
+The `index.html` file holds all the structure and the `style.css` file has all the styling.
+
+### Install the project and install it's dependencies:
+
+```
+git clone git@github.com:RilDev/minimal-css.git && cd $_
+npm i
+```
+### Start project
+
+```
+git start
+```
+
+### Update minified CSS file
+
+```
+git run build
+```
+
+Note: there is a `pre-commit hook` that will run this commend every time the project is commited.
+
 
 ## Todo
 
@@ -23,6 +73,7 @@ To add the Mimial CSS style to your project, simply add this link to your index 
 - [x] add tag for v1
 - [x] publish package on npm!
 - [ ] fix the `.full-width` class
+- [ ] fix mobile display
 
 ## Acknowledgement
 
