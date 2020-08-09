@@ -61,7 +61,7 @@ git start
 git run build
 ```
 
-Note: there is a `pre-commit hook` that will run this commend every time the project is commited.
+Note: there is a `pre-commit hook` that will run this command every time the project is committed.
 
 
 ## Todo
