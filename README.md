@@ -16,7 +16,7 @@ To add the Mimial CSS style to your project, simply add this link to your index 
 
 ## Todo
 
-- [ ] add `npm run build` to run `uglifycss style.css > style.min.css`
+- [x] add `npm run build` to run `uglifycss style.css > style.min.css`
 - [ ] add `pre-commit` hook to run `npm run build && git add style.min.css`
 - [ ] add `<header>` and `<footer>` styling
 - [ ] add `<ul>` styling
