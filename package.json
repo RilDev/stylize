@@ -24,9 +24,14 @@
   },
   "homepage": "https://github.com/RilDev/minimal-css#readme",
   "devDependencies": {
-    "uglifycss": "0.0.29",
-    "http-server": "^0.12.3"
+    "http-server": "^0.12.3",
+    "husky": "^4.2.5",
+    "uglifycss": "0.0.29"
   },
-  "dependencies": {
+  "dependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build && git add style.min.css"
+    }
   }
 }
