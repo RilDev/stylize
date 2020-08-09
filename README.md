@@ -21,7 +21,7 @@ To add the Mimial CSS style to your project, simply add this link to your index 
 - [x] add `<header>` and `<footer>` styling
 - [x] add `<ul>` styling
 - [x] add tag for v1
-- [ ] publish package on npm!
+- [x] publish package on npm!
 - [ ] fix the `.full-width` class
 
 ## Acknowledgement
