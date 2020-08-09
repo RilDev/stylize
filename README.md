@@ -32,4 +32,4 @@ To add the Mimial CSS style to your project, simply add this link to your index 
 
 ## Copyright
 
-Public domain.
+UNLICENSED
