@@ -57,9 +57,7 @@ git start
 
 ### Update minified CSS file
 
-```
-git run build
-```
+There is a pre-commit hook on the master branch that will minify, commit the style.css file if it has been modified.
 
 ### Publish package
 
