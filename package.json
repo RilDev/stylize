@@ -1,6 +1,6 @@
 {
   "name": "@rildev/minimal-css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Make your prototypes look good with a standard minimal css stylesheet (< 1Kb)!",
   "main": "index.html",
   "scripts": {
