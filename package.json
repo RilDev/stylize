@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/RilDev/minimal-css#readme",
   "devDependencies": {
-    "husky": "^4.2.5",
     "uglifycss": "0.0.29"
   },
   "dependencies": {}
