@@ -230,15 +230,21 @@ label {
 }
 
 /*classes*/
-/*full-width*/
-/* .full-width { */
-/*   width: 100vw; */
-/*   position: relative; */
-/*   left: 50%; */
-/*   right: 50%; */
-/*   margin-left: -50vw; */
-/*   margin-right: -50vw; */
-/* } */
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+/*center the content inside a full-width container*/
+.centered {
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 1rem;
+}
 
 /*no-scrollbar*/
 /* Hide scrollbar for Chrome, Safari and Opera */
