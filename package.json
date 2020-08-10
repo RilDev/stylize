@@ -8,14 +8,18 @@
     "start": "npx http-server ./ -o",
     "build": "uglifycss style.css > style.min.css",
     "prepublish": "npm run build",
-    "publish": "git switch -C package && rm -rv * && git restore -s master -- package.json style.min.css && mv style.min.css style.css && git add . && git commit -m \"package ready for publishing\" && git switch master",
+    "publish": "git switch -C package && rm -rv * && git restore -s master -- package.json style.min.css && mv style.min.css style.css && git add . && git commit -m \"package ready for publishing\" && git push origin package && git switch master",
     "postpublish": "npm i"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RilDev/minimal-css.git"
   },
-  "keywords": ["css", "minimal", "prototype"],
+  "keywords": [
+    "css",
+    "minimal",
+    "prototype"
+  ],
   "author": "RilDev",
   "license": "UNLICENSED",
   "bugs": {
