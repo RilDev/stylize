@@ -64,19 +64,19 @@ There is a `pre-commit hook` on the `master branch` that will minify, commit the
 Publish a patch
 
 ```
-git run package
+npm run package
 ```
 
 Publish a minor update
 
 ```
-VERSION=minor git run package
+VERSION=minor npm run package
 ```
 
 Publish a major update
 
 ```
-VERSION=major git run package
+VERSION=major npm run package
 ```
 
 ## Todo
