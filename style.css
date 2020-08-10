@@ -16,8 +16,8 @@ body::-webkit-scrollbar {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /*headings*/
@@ -44,7 +44,6 @@ header {
   line-height: 1.2;
   color: #fff;
   text-shadow: 1px 1px 1px #555;
-
 }
 
 header img {
@@ -139,6 +138,7 @@ textarea {
   font-size: 1.2rem;
   margin-top: 1.2rem;
   box-sizing: border-box;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 input:first-child {
@@ -216,12 +216,10 @@ input[type='checkbox']:after {
 textarea {
   resize: vertical;
   min-height: 5rem;
-  font-size: 1.4rem;
 }
 
 textarea::placeholder {
   font-family: 'Helvetica', 'Arial', sans-serif;
-  font-size: 1rem !important;
 }
 
 input[type='submit'] {
