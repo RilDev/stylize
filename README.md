@@ -81,15 +81,7 @@ VERSION=major npm run package
 
 ## Todo
 
-- [x] add `npm run build` to run `uglifycss style.css > style.min.css`
-- [x] add `pre-commit` hook to run `npm run build && git add style.min.css`
-- [x] add `<header>` and `<footer>` styling
-- [x] add `<ul>` styling
-- [x] add tag for v1
-- [x] publish package on npm!
-- [x] fix the `.full-width` class
-- [x] fix mobile display
-- [x] add package script to npm publish lean version of project
+- [ ] add Demo section
 
 ## Acknowledgement
 
