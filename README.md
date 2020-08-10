@@ -24,7 +24,7 @@ Download the NPM Package:
 npm install @rildev/minimal-css
 ```
 
-Include it minified CSS in your index file:
+Include the minified CSS in your index file:
 
 ```
 <link
