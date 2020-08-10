@@ -6,17 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx http-server ./ -o",
-    "package": "npm version --no-git-tag-version patch && git add package.json && git commit -m \"update version number\" && git switch -C package && uglifycss style.css > style.min.css && rm style.css && mv style.min.css style.css && rm -rf index.html assets && git add -A && git commit -m \"ready to publish\" && git push -f origin package && npm publish"
+    "package": "npm version --no-git-tag-version patch && git add package.json && git commit -m \"update version number\" && git switch -C package && uglifycss style.css > style.min.css && rm style.css && mv style.min.css style.css && rm -rf index.html assets && git add -A && git commit -m \"ready to publish\" && git push -f origin package && npm publish && git switch master"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RilDev/minimal-css.git"
   },
-  "keywords": [
-    "css",
-    "minimal",
-    "prototype"
-  ],
+  "keywords": ["css", "minimal", "prototype"],
   "author": "RilDev",
   "license": "UNLICENSED",
   "bugs": {
