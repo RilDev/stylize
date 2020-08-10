@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx http-server ./ -o",
     "build": "uglifycss style.css > style.min.css",
-    "prepublish": "npm run build && git add . && git commit -m \"prepare to publish package\"",
+    "prepublish": "npm run build && git add . && git commit --allow-empty -m \"prepare to publish package\"",
     "publish": "git switch -C package && rm -rv * && git restore -s master -- package.json style.min.css && mv style.min.css style.css && git add . && git commit -m \"package ready for publishing\" && git push -f origin package && npm publish && git switch master",
     "postpublish": "npm i"
   },
