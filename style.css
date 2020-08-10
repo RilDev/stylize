@@ -246,6 +246,11 @@ label {
   padding: 1rem;
 }
 
+/*fix the overflow-y issue that might be caused by .full-width*/
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
 /*no-scrollbar*/
 /* Hide scrollbar for Chrome, Safari and Opera */
 .no-scrollbar::-webkit-scrollbar {
