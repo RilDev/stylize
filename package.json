@@ -9,7 +9,7 @@
     "build": "uglifycss style.css > style.min.css",
     "postbuild": "git add style.min.css",
     "prepare": "npm run build && npm version patch && git add package.json && git commit --allow-empty -m \"prepare to publish package\"",
-    "publish": "git switch -C package && rm -rv index.html style.css assets && mv style.min.css style.css && git add -A && git commit --allow-empty -m \"package ready for publishing\" && rm -f style.min.css && git push -f origin package && npm publish && git switch master"
+    "publish": "git switch -C package && rm -rv index.html style.css assets && mv style.min.css style.css && git commit && git add -A && git commit --allow-empty -m \"package ready for publishing\" && git push -f origin package && npm publish && git switch master"
   },
   "repository": {
     "type": "git",
