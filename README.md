@@ -61,8 +61,25 @@ git start
 git run build
 ```
 
-Note: there is a `pre-commit hook` that will run this command every time the project is committed.
+### Publish package
 
+Publish a patch
+
+```
+git run package
+```
+
+Publish a minor update
+
+```
+VERSION=minor git run package
+```
+
+Publish a major update
+
+```
+VERSION=major git run package
+```
 
 ## Todo
 
