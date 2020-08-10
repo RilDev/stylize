@@ -88,7 +88,7 @@ VERSION=major git run package
 - [x] add tag for v1
 - [x] publish package on npm!
 - [x] fix the `.full-width` class
-- [ ] fix mobile display
+- [x] fix mobile display
 - [x] add package script to npm publish lean version of project
 
 ## Acknowledgement
