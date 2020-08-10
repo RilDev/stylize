@@ -70,14 +70,16 @@ header a {
   text-decoration: none;
   margin-top: 1rem;
   display: inline-block;
+  text-shadow: 1px 1px 1px #555;
   transition: none 200ms ease-out;
-  transition-property: color, background;
+  transition-property: color, background, text-shadow;
   box-shadow: 1px 1px 1px #555;
 }
 
 header a:hover {
   color: #333;
   background: #fff;
+  text-shadow: none;
 }
 
 /*main*/
