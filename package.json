@@ -1,12 +1,12 @@
 {
   "name": "@rildev/minimal-css",
-  "version": "1.0.22",
+  "version": "1.0.24",
   "description": "Make your prototypes look good with a standard minimal css stylesheet (< 1Kb)!",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx http-server ./ -o",
-    "package": "bash -c 'npm version --no-git-tag-version ${1-patch}' && git add package.json && git commit -m \"update version number\" && git switch -C package && uglifycss style.css > style.min.css && rm style.css && mv style.min.css style.css && rm -rf index.html assets && git add -A && git commit -m \"ready to publish\" && git push -f origin package && npm publish && git switch master"
+    "package": "bash -c 'npm version --no-git-tag-version ${1-patch}' -- && git add package.json && git commit -m \"update version number\" && git switch -C package && uglifycss style.css > style.min.css && rm style.css && mv style.min.css style.css && rm -rf index.html assets && git add -A && git commit -m \"ready to publish\" && git push -f origin package && npm publish && git switch master"
   },
   "repository": {
     "type": "git",
