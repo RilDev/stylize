@@ -9,7 +9,7 @@
     "build": "uglifycss style.css > style.min.css",
     "prepublish": "npm run build",
     "publish": "git switch -C package && rm -rv * && git restore -s master -- package.json style.min.css && mv style.min.css style.css && git add . && git commit -m \"package ready for publishing\" && git switch master",
-    "prepublish": "npm i"
+    "postpublish": "npm i"
   },
   "repository": {
     "type": "git",
