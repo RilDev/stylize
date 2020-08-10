@@ -23,5 +23,10 @@
   "devDependencies": {
     "uglifycss": "0.0.29"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "if git-branch-is master; then uglifycss style.css > style.min.css && git add style.min.css; fi"
+    }
+  }
 }
