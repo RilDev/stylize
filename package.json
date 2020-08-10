@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx http-server ./ -o",
     "build": "uglifycss style.css > style.min.css",
-    "publish": "git switch -C package && rm -rv * && git restore -s master -- package.json style.min.css && mv style.min.css style.css && git add . && git commit -m \"update package\" && git switch master"
+    "publish": "git switch -C package && rm -rv * && git restore -s master -- package.json style.min.css && mv style.min.css style.css && git add . && git commit -m \"package ready for publishing\" && git switch master"
   },
   "repository": {
     "type": "git",
