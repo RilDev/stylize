@@ -1,6 +1,6 @@
 {
   "name": "@rildev/minimal-css",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Make your prototypes look good with a standard minimal css stylesheet (< 1Kb)!",
   "main": "index.html",
   "scripts": {
@@ -15,7 +15,11 @@
     "type": "git",
     "url": "git+https://github.com/RilDev/minimal-css.git"
   },
-  "keywords": ["css", "minimal", "prototype"],
+  "keywords": [
+    "css",
+    "minimal",
+    "prototype"
+  ],
   "author": "RilDev",
   "license": "UNLICENSED",
   "bugs": {
