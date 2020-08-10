@@ -13,7 +13,7 @@
 Simply add this link to your index file:
 
 ```
-<link rel="stylesheet" href="https://rildev.github.io/minimal-css/style.css" />
+<link rel="stylesheet" href="https://rildev.github.io/minimal-css/style.min.css" />
 ```
 
 ### NPM Package
