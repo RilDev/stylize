@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx http-server ./ -o",
-    "build": "uglifycss style.css > style.min.css"
+    "build": "uglifycss style.css > style.min.css",
+"publish": "git switch -C branch && rm -rv * && git restore -s master -- package.json style.min.css && git switch master"
   },
   "repository": {
     "type": "git",
