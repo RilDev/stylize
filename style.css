@@ -143,6 +143,7 @@ input[type='radio'] {
   position: relative;
   visibility: hidden;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 input[type='radio']:before,
@@ -227,6 +228,7 @@ input[type='submit']:disabled {
 label {
   box-shadow: none;
   border: none;
+  cursor: pointer;
 }
 
 /*classes*/
