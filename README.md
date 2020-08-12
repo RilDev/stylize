@@ -82,6 +82,7 @@ VERSION=major npm run package
 ## Todo
 
 - [ ] add Demo section
+- [ ] add style form>select
 
 ## Acknowledgement
 
