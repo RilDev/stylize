@@ -60,9 +60,9 @@ header a {
   margin-top: 1rem;
   display: inline-block;
   text-shadow: 1px 1px 1px #555;
+  box-shadow: 1px 1px 1px #555;
   transition: none 200ms ease-out;
   transition-property: color, background, text-shadow;
-  box-shadow: 1px 1px 1px #555;
 }
 
 header a:hover {
@@ -143,9 +143,17 @@ button,
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
+  position: relative;
 }
 
-button:disabled {
+button:active,
+.button:active {
+  box-shadow: none;
+  top: 2px;
+}
+
+button:disabled,
+.button:disabled {
   border: 1px solid #555;
   cursor: default;
   color: #555;
@@ -260,6 +268,12 @@ textarea::placeholder {
 input[type='submit'] {
   cursor: pointer;
   font-weight: 700;
+  position: relative;
+}
+
+input[type='submit']:active {
+  box-shadow: none;
+  top: 2px;
 }
 
 input[type='submit']:disabled {
