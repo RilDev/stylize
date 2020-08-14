@@ -65,6 +65,12 @@ git start
 
 There is a `pre-commit hook` on the `master branch` that will update and commit the style.min.css file if the style.css file has been modified.
 
+In case you need to manually minify the `style.css` file, you can run the minify script
+
+```
+npm run minify
+```
+
 ### Publish package
 
 Publish a patch
