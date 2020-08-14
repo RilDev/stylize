@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx http-server ./ -o",
+    "start": "http-server ./ -o",
     "package": "npm version --no-git-tag-version ${VERSION-patch} && git add package.json && git commit -m \"update version number\" && git switch -C package && uglifycss style.css > style.min.css && rm style.css && mv style.min.css style.css && rm -rf index.html assets && git add -A && git commit -m \"ready to publish\" && git push -f origin package && npm publish && git switch master"
   },
   "repository": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/RilDev/minimal-css#readme",
   "devDependencies": {
+    "http-server": "^0.12.3",
     "uglifycss": "0.0.29"
   },
   "dependencies": {},
