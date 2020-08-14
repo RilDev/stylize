@@ -109,5 +109,31 @@
     <footer>
       By <a href="https://rildev.website" target="_blank">RilDev</a>
     </footer>
+    <div class="GDPR-card">
+      <h2>GDPR</h2>
+      <p>We don't use any cookies</p>
+      <p>We don't store any of your information</p>
+      <button onclick="setGDPRCardVisibility(false)">Got it!</button>
+    </div>
+
+    <script>
+      //parameter: flag -> bool, show / hide the .GDPR-card
+      const setGDPRCardVisibility = flag => {
+        const GDPRCard = document.querySelector('.GDPR-card');
+
+        //if no .GDPR-card, do nothing
+        if (!GDPRCard) {
+          return;
+        }
+
+        if (flag) {
+          GDPRCard.classList.add('visible');
+        } else {
+          GDPRCard.classList.remove('visible');
+        }
+      };
+
+      setGDPRCardVisibility(true);
+    </script>
   </body>
 </html>

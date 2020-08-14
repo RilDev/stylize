@@ -299,3 +299,23 @@ label {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.GDPR-card {
+  position: fixed;
+  bottom: 0;
+  right: -24rem;
+  z-index: 2;
+  background: #fff;
+  padding: 0 2rem 1rem;
+  box-shadow: 0px 0px 5px 1px #555;
+  width: 20rem;
+  transition: right 200ms ease-out;
+}
+
+.GDPR-card.visible {
+  right: 0;
+}
+
+.GDPR-card button {
+  margin-top: 1rem;
+}
