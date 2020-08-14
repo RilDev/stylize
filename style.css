@@ -303,17 +303,18 @@ label {
 .GDPR-card {
   position: fixed;
   bottom: 0;
-  right: -24rem;
+  right: 0;
+  transform: translateX(100%);
   z-index: 2;
   background: #fff;
   padding: 0 2rem 1rem;
-  box-shadow: 0px 0px 5px 1px #555;
   width: 20rem;
-  transition: right 200ms ease-out;
+  transition: transform 200ms ease-out;
 }
 
 .GDPR-card.visible {
-  right: 0;
+  transform: translateX(0%);
+  box-shadow: 0px 0px 5px 1px #555;
 }
 
 .GDPR-card button {
