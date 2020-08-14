@@ -308,7 +308,7 @@ label {
   z-index: 2;
   background: #fff;
   padding: 0 2rem 1rem;
-  width: 20rem;
+  max-width: 20rem;
   transition: transform 200ms ease-out;
 }
 
