@@ -63,7 +63,7 @@ git start
 
 ### Update minified CSS file
 
-There is a `pre-commit hook` on the `master branch` that will minify, commit the style.css file if it has been modified.
+There is a `pre-commit hook` on the `master branch` that will update and commit the style.min.css file if the style.css file has been modified.
 
 ### Publish package
 
@@ -89,7 +89,7 @@ VERSION=major npm run package
 
 - [ ] add Demo section
 - [ ] add style form > select
-- [ ] add style nav
+- [x] add style nav
 - [ ] add style GDPR card
 - [ ] add style color
 
