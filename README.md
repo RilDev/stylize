@@ -42,7 +42,7 @@ Include the minified CSS in your index file:
 Or you can directly import it in your JS file:
 
 ```
-import from '@rildev/minimal-css/style.css';
+import '@rildev/minimal-css/style.css';
 ```
 
 ## Develop
