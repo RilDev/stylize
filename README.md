@@ -10,10 +10,16 @@
 
 ### Link stylesheet
 
-Simply add this link to your index file:
+Simply add this link to your index.html file:
 
 ```
 <link rel="stylesheet" href="https://rildev.github.io/minimal-css/style.min.css" />
+```
+
+Or add this link to your style.css file:
+
+```
+@import url("https://rildev.github.io/minimal-css/style.min.css");
 ```
 
 ### NPM Package
@@ -83,6 +89,9 @@ VERSION=major npm run package
 
 - [ ] add Demo section
 - [ ] add style form > select
+- [ ] add style nav
+- [ ] add style GDPR card
+- [ ] add style color
 
 ## Acknowledgement
 
