@@ -91,7 +91,7 @@ VERSION=major npm run package
 - [x] add style form > select
 - [x] add style nav
 - [x] add style GDPR card
-- [ ] add style color
+- [x] add style color
 - [x] update buttons style
 
 ## Acknowledgement
