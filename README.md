@@ -88,7 +88,7 @@ VERSION=major npm run package
 ## Todo
 
 - [ ] add Demo section
-- [ ] add style form > select
+- [x] add style form > select
 - [x] add style nav
 - [x] add style GDPR card
 - [ ] add style color
