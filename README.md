@@ -92,6 +92,7 @@ VERSION=major npm run package
 - [x] add style nav
 - [ ] add style GDPR card
 - [ ] add style color
+- [ ] updte buttons style
 
 ## Acknowledgement
 
