@@ -104,7 +104,7 @@ VERSION=major npm run package
 
 - Thanks to [Jeremy Thomas](https://jgthms.com/) and his [Web Design in 4 Minutes](https://jgthms.com/web-design-in-4-minutes/)!
 - Thanks to [Chris McCormick](https://github.com/chr15m) for his [Minimal Stylesheet](https://github.com/chr15m/minimal-stylesheet)!
-- Thanks to [murmurs](https://github.com/mrmrs) for his [colors.css](https://github.com/mrmrs/colors)!
+- Thanks to [murmurs](https://github.com/mrmrs) for his [Colors](https://clrs.cc/)!
 
 
 ## Copyright
