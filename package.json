@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx http-server ./ -o",
-    "push": "uglifycss style.css > style.min.css && git add style.min.css && git commit -m \"update minified css\" && git push",
     "package": "npm version --no-git-tag-version ${VERSION-patch} && git add package.json && git commit -m \"update version number\" && git switch -C package && uglifycss style.css > style.min.css && rm style.css && mv style.min.css style.css && rm -rf index.html assets && git add -A && git commit -m \"ready to publish\" && git push -f origin package && npm publish && git switch master"
   },
   "repository": {
