@@ -128,18 +128,25 @@ footer a {
 
 /*buttons*/
 
-button {
-  border: 1px solid #555;
-  border-radius: 4px;
+button,
+.button {
   box-shadow: 1px 1px 1px #555;
-  padding: 0.4rem 0.5rem;
-  color: #333;
+  background: #fff;
   cursor: pointer;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 0.7rem;
+  border: 1px solid #555;
+  border-radius: 50px;
+  color: #333;
+  letter-spacing: 0.2rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
 }
 
 button:disabled {
+  border: 1px solid #555;
   cursor: default;
   color: #555;
   background: #ddd;
