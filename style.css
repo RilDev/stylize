@@ -300,7 +300,7 @@ label {
   scrollbar-width: none; /* Firefox */
 }
 
-.GDPR-card {
+.gdpr-card {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -312,11 +312,11 @@ label {
   transition: transform 200ms ease-out;
 }
 
-.GDPR-card.visible {
+.gdpr-card.visible {
   transform: translateX(0%);
   box-shadow: 0px 0px 5px 1px #555;
 }
 
-.GDPR-card button {
+.gdpr-card button {
   margin-top: 1rem;
 }
