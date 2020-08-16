@@ -130,6 +130,7 @@ nav ul {
 }
 
 nav ul li {
+  white-space: nowrap;
 }
 
 nav ul li:last-child {
