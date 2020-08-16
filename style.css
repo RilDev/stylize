@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,6 +21,7 @@ strong {
 h2 {
   margin-top: 1rem;
   padding-top: 1rem;
+  scroll-margin-top: 3rem;
 }
 
 /*header*/
