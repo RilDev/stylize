@@ -1,6 +1,6 @@
 # Minimal CSS
 
-*Make your prototypes look good with a standard minimal css stylesheet!*
+_Make your prototypes look good with a standard minimal css stylesheet!_
 
 ## Demo
 
@@ -55,6 +55,7 @@ The `index.html` file holds all the structure and the `style.css` file has all t
 git clone git@github.com:RilDev/minimal-css.git && cd $_
 npm i
 ```
+
 ### Start project
 
 ```
@@ -107,7 +108,7 @@ VERSION=major npm run package
 - Thanks to [Jeremy Thomas](https://jgthms.com/) and his [Web Design in 4 Minutes](https://jgthms.com/web-design-in-4-minutes/)!
 - Thanks to [Chris McCormick](https://github.com/chr15m) for his [Minimal Stylesheet](https://github.com/chr15m/minimal-stylesheet)!
 - Thanks to [murmurs](https://github.com/mrmrs) for his [Colors](https://clrs.cc/)!
-
+- Thanks to [Ilya Shubin](https://github.com/ilyashubin) for his [https://github.com/ilyashubin/scrollbooster](https://github.com/ilyashubin/scrollbooster) plugin!
 
 ## Copyright
 
