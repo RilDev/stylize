@@ -146,57 +146,11 @@
       </button>
     </div>
 
+    <!-- the following scripts are optional -->
+    <!-- show/hide GDPR card -->
+    <script src="./scripts/set-gdpr-card-visibility.js"></script>
+    <!--  scrollable nav overflow -->
     <script src="https://unpkg.com/scrollbooster@2/dist/scrollbooster.min.js"></script>
-    <script>
-      //Those scripts are simply here to showcase what is possible with the CSS
-      //you can use them "as it is" but I would recommend tuning them to your perticular framework
-
-      //GDPR card show/hide
-      //parameter: flag -> bool, show / hide the .GDPR-card
-      const setGDPRCardVisibility = flag => {
-        const GDPRCard = document.querySelector('.gdpr-card');
-
-        //if no .GDPR-card, do nothing
-        if (!GDPRCard) {
-          return;
-        }
-
-        if (flag) {
-          GDPRCard.classList.add('visible');
-        } else {
-          GDPRCard.classList.remove('visible');
-        }
-      };
-
-      setGDPRCardVisibility(true);
-
-      //ScrollBooster
-      //querySelector
-      const nav = document.querySelector('nav');
-      const ul = nav.querySelector('ul');
-
-      //createElement
-      const container = document.createElement('div');
-      const li = document.createElement('li');
-      const liText = document.createTextNode('sbli');
-
-      //modify elements
-      container.classList.add('scroll-booster');
-
-      //appendChild
-      li.appendChild(liText);
-      ul.appendChild(li);
-      container.appendChild(ul);
-      nav.appendChild(container);
-
-      //initialize the ScrollBooster object
-      new ScrollBooster({
-        viewport: document.querySelector('nav .scroll-booster'),
-        content: document.querySelector('nav ul'),
-        direction: 'horizontal',
-        scrollMode: 'transform',
-        bounce: false,
-      });
-    </script>
+    <script src="./scripts/init-scroll-booster.js"></script>
   </body>
 </html>
