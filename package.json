@@ -29,7 +29,9 @@
     "husky": "^4.2.5",
     "uglifycss": "0.0.29"
   },
-  "dependencies": {},
+  "dependencies": {
+    "scrollbooster": "^3.0.2"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "if git-branch-is master; then uglifycss style.css > style.min.css && git add style.min.css; fi"
