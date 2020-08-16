@@ -148,6 +148,7 @@ VERSION=major npm run package
 - [x] update buttons style
 - [x] add nav mobile scroll-y w/o scrollbar if menu too long
 - [ ] rename project Stylize
+- [ ] find a general fix to the `import from @rildev/scripts/init-scroll-booster` error
 
 ## Acknowledgement
 
