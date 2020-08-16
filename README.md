@@ -100,6 +100,7 @@ VERSION=major npm run package
 - [x] add style color
 - [x] update buttons style
 - [x] add nav mobile scroll-y w/o scrollbar if menu too long
+- [ ] rename project Stylize
 
 ## Acknowledgement
 
