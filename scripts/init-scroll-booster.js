@@ -1,4 +1,4 @@
-//ScrolxlBooster
+//ScrollBooster
 //querySelector
 const nav = document.querySelector('nav');
 const ul = nav.querySelector('ul');
