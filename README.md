@@ -8,18 +8,49 @@ _Make your prototypes look good with a standard minimal css stylesheet!_
 
 ## Usage
 
-### Link stylesheet
+### CSS Only
 
-Simply add this link to your index.html file:
+With link tag:
 
 ```
 <link rel="stylesheet" href="https://rildev.github.io/minimal-css/style.min.css" />
 ```
 
-Or add this link to your style.css file:
+With import:
 
 ```
 @import url("https://rildev.github.io/minimal-css/style.min.css");
+```
+
+### Optional: CSS & JS
+
+The JS files are optional, they only add none essential functionalities such as a drag to scroll nav and a function to show/hide the GDPR card. These are for demonstration purposes and should be tailored to your specific needs.
+
+With link & script tags:
+
+```
+<head>
+  ...
+  <link rel="stylesheet" href="https://rildev.github.io/minimal-css/style.min.css" />
+</head>
+<body>
+  ...
+  <!-- the following scripts are optional -->
+  <!-- show/hide GDPR card -->
+  <script src="./scripts/set-gdpr-card-visibility.js"></script>
+  <!--  scrollable nav overflow -->
+  <script src="https://unpkg.com/scrollbooster@2/dist/scrollbooster.min.js"></script>
+  <script src="./scripts/init-scroll-booster.js"></script>
+</body>
+```
+
+With imports:
+
+```
+@import url("https://rildev.github.io/minimal-css/style.min.css");
+@import url("https://rildev.github.io/minimal-css/scripts/set-gdpr-card-visibility.js");
+@import url("https://unpkg.com/scrollbooster@2/dist/scrollbooster.min.js");
+@import url("https://rildev.github.io/minimal-css/scripts/init-scroll-booster.js");
 ```
 
 ### NPM Package
@@ -30,19 +61,34 @@ Download the NPM Package:
 npm install @rildev/minimal-css
 ```
 
-Include the minified CSS in your index file:
+With `link` & `script` tags:
 
 ```
-<link
-  rel="stylesheet"
-  href="node_modules/@rildev/minimal-css/style.css"
-/>
+<head>
+  ...
+  <link
+    rel="stylesheet"
+    href="node_modules/@rildev/minimal-css/style.css"
+  />
+</head>
+<body>
+  ...
+  <!-- the following scripts are optional -->
+  <!-- show/hide GDPR card -->
+  <script src="node_modules/@rildev/minimal-css/scripts/set-gdpr-card-visibility.js"></script>
+  <!--  scrollable nav overflow -->
+  <script src="node_modules/scrollbooster/dist/scrollbooster.min.js"></script>
+  <script src="node_modules/@rildev/minimal-css/scripts/init-scroll-booster.js"></script>
+</body>
 ```
 
-Or you can directly import it in your JS file:
+With `import`:
 
 ```
 import '@rildev/minimal-css/style.css';
+import '@rildev/minimal-css/scripts/set-gdpr-card-visibility';
+import ScrollBooster from 'scrollbooster';
+import '@rildev/minimal-css/scripts/init-scroll-booster';
 ```
 
 ## Develop
