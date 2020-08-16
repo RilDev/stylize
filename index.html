@@ -138,10 +138,20 @@
       <h2>GDPR</h2>
       <p>We don't use any cookies</p>
       <p>We don't store any of your information</p>
-      <button class="white border-white bg-blue" onclick="setGDPRCardVisibility(false)">Got it!</button>
+      <button
+        class="white border-white bg-blue"
+        onclick="setGDPRCardVisibility(false)"
+      >
+        Got it!
+      </button>
     </div>
 
+    <script src="https://unpkg.com/scrollbooster@2/dist/scrollbooster.min.js"></script>
     <script>
+      //Those scripts are simply here to showcase what is possible with the CSS
+      //you can use them "as it is" but I would recommend tuning them to your perticular framework
+
+      //GDPR card show/hide
       //parameter: flag -> bool, show / hide the .GDPR-card
       const setGDPRCardVisibility = flag => {
         const GDPRCard = document.querySelector('.gdpr-card');
@@ -159,6 +169,34 @@
       };
 
       setGDPRCardVisibility(true);
+
+      //ScrollBooster
+      //querySelector
+      const nav = document.querySelector('nav');
+      const ul = nav.querySelector('ul');
+
+      //createElement
+      const container = document.createElement('div');
+      const li = document.createElement('li');
+      const liText = document.createTextNode('sbli');
+
+      //modify elements
+      container.classList.add('scroll-booster');
+
+      //appendChild
+      li.appendChild(liText);
+      ul.appendChild(li);
+      container.appendChild(ul);
+      nav.appendChild(container);
+
+      //initialize the ScrollBooster object
+      new ScrollBooster({
+        viewport: document.querySelector('nav .scroll-booster'),
+        content: document.querySelector('nav ul'),
+        direction: 'horizontal',
+        scrollMode: 'transform',
+        bounce: false,
+      });
     </script>
   </body>
 </html>

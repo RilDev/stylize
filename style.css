@@ -80,17 +80,63 @@ nav {
   z-index: 1;
   box-shadow: 1px 1px 5px #555;
   background: #fff;
+  overflow: hidden;
+}
+
+nav .scroll-booster {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 0 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+nav .scroll-booster:before,
+nav .scroll-booster:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  display: block;
+  height: 100%;
+  width: 1rem;
+  background: red;
+}
+
+nav .scroll-booster:before {
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+nav .scroll-booster:after {
+  top: 0;
+  right: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 nav ul {
-  margin: 0 auto;
-  max-width: 50rem;
   padding: 0;
+  margin: 0;
   list-style: none;
   display: flex;
 }
 
 nav ul li {
+}
+
+nav ul li:last-child {
+  width: 0;
+  height: 100%;
+  visibility: hidden;
+  padding: 0;
 }
 
 nav ul li a {
