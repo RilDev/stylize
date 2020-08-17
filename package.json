@@ -1,5 +1,5 @@
 {
-  "name": "@rildev/stylize",
+  "name": "@rildev/stylized",
   "version": "0.0.2",
   "description": "Make your prototypes look good with a standard minimal css stylesheet (< 1Kb)!",
   "main": "index.html",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RilDev/stylize.git"
+    "url": "git+https://github.com/RilDev/stylized.git"
   },
   "keywords": [
     "style",
@@ -24,9 +24,9 @@
   "author": "RilDev",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/RilDev/stylize/issues"
+    "url": "https://github.com/RilDev/stylized/issues"
   },
-  "homepage": "https://github.com/RilDev/stylize#readme",
+  "homepage": "https://github.com/RilDev/stylized#readme",
   "devDependencies": {
     "http-server": "^0.12.3",
     "husky": "^4.2.5",
