@@ -1,10 +1,10 @@
-# Minimal CSS
+# Stylize
 
-_Make your prototypes look good with a standard minimal css stylesheet!_
+_Make your prototypes look good with a stylish stylesheet!_
 
 ## Demo
 
-[https://rildev.github.io/minimal-css/](https://rildev.github.io/minimal-css/)
+[https://rildev.github.io/stylize/](https://rildev.github.io/stylize/)
 
 ## Usage
 
@@ -13,13 +13,13 @@ _Make your prototypes look good with a standard minimal css stylesheet!_
 With link tag:
 
 ```
-<link rel="stylesheet" href="https://rildev.github.io/minimal-css/style.min.css" />
+<link rel="stylesheet" href="https://rildev.github.io/stylize/style.min.css" />
 ```
 
 With import:
 
 ```
-@import url("https://rildev.github.io/minimal-css/style.min.css");
+@import url("https://rildev.github.io/stylize/style.min.css");
 ```
 
 ### Optional: CSS & JS
@@ -31,7 +31,7 @@ With link & script tags:
 ```
 <head>
   ...
-  <link rel="stylesheet" href="https://rildev.github.io/minimal-css/style.min.css" />
+  <link rel="stylesheet" href="https://rildev.github.io/stylize/style.min.css" />
 </head>
 <body>
   ...
@@ -47,10 +47,10 @@ With link & script tags:
 With imports:
 
 ```
-@import url("https://rildev.github.io/minimal-css/style.min.css");
-@import url("https://rildev.github.io/minimal-css/scripts/set-gdpr-card-visibility.js");
+@import url("https://rildev.github.io/stylize/style.min.css");
+@import url("https://rildev.github.io/stylize/scripts/set-gdpr-card-visibility.js");
 @import url("https://unpkg.com/scrollbooster@2/dist/scrollbooster.min.js");
-@import url("https://rildev.github.io/minimal-css/scripts/init-scroll-booster.js");
+@import url("https://rildev.github.io/stylize/scripts/init-scroll-booster.js");
 ```
 
 ### NPM Package
@@ -58,7 +58,7 @@ With imports:
 Download the NPM Package:
 
 ```
-npm install @rildev/minimal-css
+npm install @rildev/stylize
 ```
 
 With `link` & `script` tags:
@@ -68,27 +68,27 @@ With `link` & `script` tags:
   ...
   <link
     rel="stylesheet"
-    href="node_modules/@rildev/minimal-css/style.css"
+    href="node_modules/@rildev/stylize/style.css"
   />
 </head>
 <body>
   ...
   <!-- the following scripts are optional -->
   <!-- show/hide GDPR card -->
-  <script src="node_modules/@rildev/minimal-css/scripts/set-gdpr-card-visibility.js"></script>
+  <script src="node_modules/@rildev/stylize/scripts/set-gdpr-card-visibility.js"></script>
   <!--  scrollable nav overflow -->
   <script src="node_modules/scrollbooster/dist/scrollbooster.min.js"></script>
-  <script src="node_modules/@rildev/minimal-css/scripts/init-scroll-booster.js"></script>
+  <script src="node_modules/@rildev/stylize/scripts/init-scroll-booster.js"></script>
 </body>
 ```
 
 With `import`:
 
 ```
-import '@rildev/minimal-css/style.css';
-import '@rildev/minimal-css/scripts/set-gdpr-card-visibility';
+import '@rildev/stylize/style.css';
+import '@rildev/stylize/scripts/set-gdpr-card-visibility';
 import ScrollBooster from 'scrollbooster';
-import '@rildev/minimal-css/scripts/init-scroll-booster';
+import '@rildev/stylize/scripts/init-scroll-booster';
 ```
 
 ## Develop
@@ -98,7 +98,7 @@ The `index.html` file holds all the structure and the `style.css` file has all t
 ### Install the project and install it's dependencies:
 
 ```
-git clone git@github.com:RilDev/minimal-css.git && cd $_
+git clone git@github.com:RilDev/stylize.git && cd $_
 npm i
 ```
 
@@ -147,8 +147,8 @@ VERSION=major npm run package
 - [x] add style color
 - [x] update buttons style
 - [x] add nav mobile scroll-y w/o scrollbar if menu too long
-- [ ] rename project Stylize
-- [ ] find a general fix to the `import from @rildev/scripts/init-scroll-booster` error
+- [x] rename project Stylize
+- [ ] find a general fix to the `import from @rildev/stylize/scripts/init-scroll-booster` error
 
 ## Acknowledgement
 
