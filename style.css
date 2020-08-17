@@ -93,8 +93,8 @@ nav > div {
   position: relative;
 }
 
-nav .scroll-booster:before,
-nav .scroll-booster:after {
+nav > div:before,
+nav > div:after {
   content: '';
   position: absolute;
   z-index: 1;
@@ -104,7 +104,7 @@ nav .scroll-booster:after {
   background: red;
 }
 
-nav .scroll-booster:before {
+nav > div:before {
   top: 0;
   left: 0;
   background: linear-gradient(
@@ -114,7 +114,7 @@ nav .scroll-booster:before {
   );
 }
 
-nav .scroll-booster:after {
+nav > div:after {
   top: 0;
   right: 0;
   background: linear-gradient(
