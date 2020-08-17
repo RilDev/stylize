@@ -10,6 +10,16 @@ body {
   margin: 0;
 }
 
+/*scrollbar*/
+body::-webkit-scrollbar {
+  width: 6px;
+  background-color: #EEE;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
 /*headings*/
 
 h1,
@@ -355,7 +365,7 @@ select {
 }
 /*classes*/
 .full-width {
-  width: 100vw;
+  width: calc(100vw - 3px);
   position: relative;
   left: 50%;
   right: 50%;
