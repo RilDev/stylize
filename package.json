@@ -1,6 +1,6 @@
 {
   "name": "@rildev/stylized",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Make your prototypes look good with a standard minimal css stylesheet (< 1Kb)!",
   "main": "index.html",
   "scripts": {
