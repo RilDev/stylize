@@ -85,7 +85,7 @@ nav {
   overflow: hidden;
 }
 
-nav .scroll-booster {
+nav > div {
   margin: 0 auto;
   max-width: 50rem;
   padding: 0 1rem;
