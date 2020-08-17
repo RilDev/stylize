@@ -559,3 +559,20 @@ select {
 .border-black {
   border-color: #111111;
 }
+
+/*text-align*/
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
