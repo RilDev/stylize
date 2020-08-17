@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "minify": "uglifycss style.css > style.min.css",
     "start": "http-server ./ -o",
-    "prepackage": "npm version --no-git-tag-version ${VERSION-patch} && git add package.json && git commit -m \"update version number\"",
+    "prepackage": "npm version --no-git-tag-version ${VERSION-patch} && git add package.json && git commit -m \"update version number\" && git push",
     "package": "git switch -C package && npm run minify && rm style.css && mv style.min.css style.css && rm -rf index.html assets && git add -A && git commit -m \"ready to publish\" && git push -f origin package && npm publish",
     "postpackage": "git switch master"
   },
