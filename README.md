@@ -149,8 +149,9 @@ VERSION=major npm run package
 - [x] add nav mobile scroll-y w/o scrollbar if menu too long
 - [x] rename project Stylized
 - [ ] find a general fix to the `import from @rildev/stylized/scripts/init-scroll-booster` error
-- [ ] style scrollbar
+- [x] style scrollbar
 - [ ] add full-width backgrounds with all background colors
+- [ ] add gallery section, rows of 3 and 4, responsive
 
 ## Acknowledgement
 
