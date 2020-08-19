@@ -151,7 +151,7 @@ VERSION=major npm run package
 - [ ] find a general fix to the `import from @rildev/stylized/scripts/init-scroll-booster` error
 - [x] style scrollbar
 - [ ] add full-width backgrounds with all background colors
-- [ ] add gallery section, rows of 3 and 4, responsive
+- [x] add gallery section, rows of 3 and 4, responsive
 - [ ] refactor style.css
 
 ## Acknowledgement
