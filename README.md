@@ -152,6 +152,7 @@ VERSION=major npm run package
 - [x] style scrollbar
 - [ ] add full-width backgrounds with all background colors
 - [ ] add gallery section, rows of 3 and 4, responsive
+- [ ] refactor style.css
 
 ## Acknowledgement
 
