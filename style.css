@@ -13,7 +13,7 @@ body {
 /*scrollbar*/
 body::-webkit-scrollbar {
   width: 6px;
-  background-color: #EEE;
+  background-color: #eee;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -586,4 +586,46 @@ select {
 
 .text-justify {
   text-align: justify;
+}
+
+/* gallery */
+.gallery {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.gallery .column {
+  flex: 1;
+  padding: 0 0.2rem;
+}
+
+.gallery .column:first-child {
+  padding-left: 0;
+}
+.gallery .column:last-child {
+  padding-right: 0;
+}
+
+.gallery .column .item {
+  width: 100%;
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 50rem) {
+  .gallery.gallery-medium-2 .column {
+    flex: calc(50% - 0.4rem);
+    padding: 0;
+  }
+
+  .gallery.gallery-medium-2 .column:nth-child(2n) {
+    padding-left: 0.4rem;
+  }
+}
+
+@media (max-width: 32rem) {
+  .gallery .column,
+  .gallery.gallery-medium-2 .column {
+    flex: 1 100%;
+    padding: 0;
+  }
 }
