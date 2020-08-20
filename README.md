@@ -150,12 +150,13 @@ VERSION=major npm run package
 - [x] rename project Stylized
 - [ ] find a general fix to the `import from @rildev/stylized/scripts/init-scroll-booster` error
 - [x] style scrollbar
-- [ ] add full-width backgrounds with all background colors
+- [x] add full-width backgrounds with all background colors
 - [x] add gallery section, rows of 3 and 4, responsive
 - [ ] refactor style.css
 - [ ] change em color to #333;
 - [ ] add .color strong and .color em for each color with hsl(x, y%, z - 13%)
 - [ ] add .code class to highlight code
+- [ ] full-width backgrounds add correct text colors on top
 
 ## Acknowledgement
 
