@@ -141,21 +141,11 @@ VERSION=major npm run package
 ## Todo
 
 - [ ] add Demo section
-- [x] add style form > select
-- [x] add style nav
-- [x] add style GDPR card
-- [x] add style color
-- [x] update buttons style
-- [x] add nav mobile scroll-y w/o scrollbar if menu too long
-- [x] rename project Stylized
 - [ ] find a general fix to the `import from @rildev/stylized/scripts/init-scroll-booster` error
-- [x] style scrollbar
-- [x] add full-width backgrounds with all background colors
-- [x] add gallery section, rows of 3 and 4, responsive
 - [ ] refactor style.css
-- [ ] change em color to #333;
-- [ ] add .color strong and .color em for each color with hsl(x, y%, z - 13%)
-- [ ] add .code class to highlight code
+- [ ] change `em` color to #333;
+- [ ] add `.color strong` and `.color em` for each color with hsl(x, y%, z - 13%)
+- [ ] add `.code` class to highlight code
 - [ ] full-width backgrounds add correct text colors on top
 
 ## Acknowledgement
