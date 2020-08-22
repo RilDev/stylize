@@ -34,6 +34,11 @@ h2 {
   scroll-margin-top: 3rem;
 }
 
+/*links*/
+a {
+  color: #0074d9;
+}
+
 /*header*/
 header {
   background-color: #333;
