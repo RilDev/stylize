@@ -184,6 +184,10 @@ footer {
   color: #fff;
 }
 
+footer div + div {
+  margin-top: 1rem;
+}
+
 footer a {
   color: #fff;
 }
