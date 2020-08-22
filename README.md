@@ -147,6 +147,8 @@ VERSION=major npm run package
 - [ ] add `.color strong` and `.color em` for each color with hsl(x, y%, z - 13%)
 - [ ] add `.code` class to highlight code
 - [ ] full-width backgrounds add correct text colors on top
+- [x] change basic anchor color
+- [x] add link to gdpr in the GDPR card
 
 ## Acknowledgement
 
