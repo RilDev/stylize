@@ -151,7 +151,7 @@ VERSION=major npm run package
 - [x] change basic anchor color
 - [x] add link to gdpr in the GDPR card
 - [ ] add real gdpr privacy policy
-- [ ] create aside sticky bar, left and right
+- [ ] create aside sticky bar
 
 ## Acknowledgement
 
