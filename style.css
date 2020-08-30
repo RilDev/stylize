@@ -92,6 +92,9 @@ header em {
 
 /*nav*/
 nav {
+  display: flex;
+  /* display: grid; */
+  /* grid-template-columns: 50px 1fr 50px; */
   position: sticky;
   top: 0;
   z-index: 1;
@@ -100,7 +103,12 @@ nav {
   overflow: hidden;
 }
 
-nav > div {
+nav > .icon {
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+nav > div:not(.icon) {
   margin: 0 auto;
   max-width: 50rem;
   padding: 0 1rem;
@@ -108,8 +116,8 @@ nav > div {
   position: relative;
 }
 
-nav > div:before,
-nav > div:after {
+nav > div:not(.icon):before,
+nav > div:not(.icon):after {
   content: '';
   position: absolute;
   z-index: 1;
@@ -119,7 +127,7 @@ nav > div:after {
   background: red;
 }
 
-nav > div:before {
+nav > div:not(.icon):before {
   top: 0;
   left: 0;
   background: linear-gradient(
@@ -129,7 +137,7 @@ nav > div:before {
   );
 }
 
-nav > div:after {
+nav > div:not(.icon):after {
   top: 0;
   right: 0;
   background: linear-gradient(
@@ -137,6 +145,13 @@ nav > div:after {
     rgba(255, 255, 255, 0) 0%,
     rgba(255, 255, 255, 1) 100%
   );
+}
+
+@media (min-width: 60rem) {
+  /*adjust nav items if has menu icon*/
+  nav > div.icon + div {
+    left: -35px;
+  }
 }
 
 nav ul {
@@ -648,4 +663,9 @@ select {
     flex: 1 100%;
     padding: 0;
   }
+}
+
+/*icons*/
+.menu.icon {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2333' width='24px' height='24px'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z'/%3E%3C/svg%3E");
 }
