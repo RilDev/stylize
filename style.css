@@ -86,6 +86,10 @@ header a:hover {
   text-shadow: none;
 }
 
+header em {
+  color: #fff;
+}
+
 /*nav*/
 nav {
   position: sticky;
