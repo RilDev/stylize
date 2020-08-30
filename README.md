@@ -143,12 +143,15 @@ VERSION=major npm run package
 - [ ] add Demo section
 - [ ] find a general fix to the `import from @rildev/stylized/scripts/init-scroll-booster` error
 - [ ] refactor style.css
-- [ ] change `em` color to #333;
+- [x] change `em` color to #333;
 - [ ] add `.color strong` and `.color em` for each color with hsl(x, y%, z - 13%)
 - [ ] add `.code` class to highlight code
+- [ ] style pre > code elements like on GitHub
 - [ ] full-width backgrounds add correct text colors on top
 - [x] change basic anchor color
 - [x] add link to gdpr in the GDPR card
+- [ ] add real gdpr privacy policy
+- [ ] create aside sticky bar, left and right
 
 ## Acknowledgement
 

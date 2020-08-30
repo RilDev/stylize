@@ -24,7 +24,8 @@ body::-webkit-scrollbar-thumb {
 
 h1,
 h2,
-strong {
+strong,
+em {
   color: #333;
 }
 
