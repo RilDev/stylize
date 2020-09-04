@@ -167,7 +167,7 @@ nav ul li {
   white-space: nowrap;
 }
 
-nav ul li:last-child {
+nav > div ul li:last-child {
   width: 100%;
   height: 100%;
   visibility: hidden;
