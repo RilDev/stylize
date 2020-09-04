@@ -35,8 +35,7 @@
       <a href="https://github.com/RilDev/stylized" target="_blank">Github</a>
     </header>
     <nav>
-      <div class="menu icon"></div>
-       
+      <div class="menu icon" onclick="setSidebarVisibility(true)"></div>
       <ul>
         <li><a href="#text-formating">Text Formating</a></li>
         <li><a href="#buttons">Buttons</a></li>
@@ -47,7 +46,26 @@
       </ul>
     </nav>
     <aside>
-      this is the sidebar
+      <div class="close icon" onclick="setSidebarVisibility(false)"></div>
+      <img src="assets/logo-small.png" alt="logo" />
+      <h2>Page Links</h2>
+      <ul>
+        <li><a href="#text-formating">Text Formating</a></li>
+        <li><a href="#buttons">Buttons</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#full-width">Full Width</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li class="active"><a href="https://rildev.website">Portfolio</a></li>
+      </ul>
+      <h2>Page Links</h2>
+      <ul>
+        <li><a href="#text-formating">Text Formating</a></li>
+        <li><a href="#buttons">Buttons</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#full-width">Full Width</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li class="active"><a href="https://rildev.website">Portfolio</a></li>
+      </ul>
     </aside>
     <main>
       <h2 id="text-formating">Text Formating</h2>
@@ -360,7 +378,6 @@
           <div class="item">
             <img
               src="assets/gallery-3.jpg"
-              style="width: 100%; vertical-align: middle;"
               load="lazy"
             />
           </div>
@@ -369,7 +386,6 @@
           <div class="item">
             <img
               src="assets/gallery-6.jpg"
-              style="width: 100%; vertical-align: middle;"
               load="lazy"
             />
           </div>
@@ -378,7 +394,6 @@
           <div class="item">
             <img
               src="assets/gallery-5.jpg"
-              style="width: 100%; vertical-align: middle;"
               load="lazy"
             />
           </div>
@@ -389,14 +404,12 @@
           <div class="item">
             <img
               src="assets/gallery-1.jpg"
-              style="width: 100%; vertical-align: middle;"
               load="lazy"
             />
           </div>
           <div class="item">
             <img
               src="assets/gallery-2.jpg"
-              style="width: 100%; vertical-align: middle;"
               load="lazy"
             />
           </div>
@@ -405,14 +418,12 @@
           <div class="item">
             <img
               src="assets/gallery-2.jpg"
-              style="width: 100%; vertical-align: middle;"
               load="lazy"
             />
           </div>
           <div class="item">
             <img
               src="assets/gallery-1.jpg"
-              style="width: 100%; vertical-align: middle;"
               load="lazy"
             />
           </div>
@@ -421,14 +432,12 @@
           <div class="item">
             <img
               src="assets/gallery-1.jpg"
-              style="width: 100%; vertical-align: middle;"
               load="lazy"
             />
           </div>
           <div class="item">
             <img
               src="assets/gallery-2.jpg"
-              style="width: 100%; vertical-align: middle;"
               load="lazy"
             />
           </div>
@@ -437,14 +446,12 @@
           <div class="item">
             <img
               src="assets/gallery-2.jpg"
-              style="width: 100%; vertical-align: middle;"
               load="lazy"
             />
           </div>
           <div class="item">
             <img
               src="assets/gallery-1.jpg"
-              style="width: 100%; vertical-align: middle;"
               load="lazy"
             />
           </div>
@@ -469,6 +476,8 @@
     </div>
 
     <!-- the following scripts are optional -->
+    <!-- show/hide sidebar -->
+    <script src="./scripts/set-sidebar-visibility.js"></script>
     <!-- show/hide GDPR card -->
     <script src="./scripts/set-gdpr-card-visibility.js"></script>
     <!--  scrollable nav overflow -->
