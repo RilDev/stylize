@@ -199,11 +199,15 @@ aside {
   background: white;
   top: 0;
   left: 0;
-  padding: 2rem 0;
+  padding: 3rem 0;
   box-shadow: 1px 1px 5px #555;
   overflow-y: auto;
   transform: translateX(calc(-100% - 6px));
   transition: transform 200ms ease-out;
+}
+
+aside > *:last-child {
+  margin-bottom: 3rem;
 }
 
 aside.visible {
@@ -227,7 +231,10 @@ aside img {
 }
 
 aside h2 {
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
 }
 
 aside ul {
