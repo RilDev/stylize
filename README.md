@@ -38,6 +38,8 @@ With link & script tags:
   <!-- the following scripts are optional -->
   <!-- show/hide GDPR card -->
   <script src="./scripts/set-gdpr-card-visibility.js"></script>
+  <!-- show/hide sidebar -->
+  <script src="./scripts/set-sidebar-visibility.js"></script>
   <!--  scrollable nav overflow -->
   <script src="https://unpkg.com/scrollbooster@2/dist/scrollbooster.min.js"></script>
   <script src="./scripts/init-scroll-booster.js"></script>
@@ -49,6 +51,7 @@ With imports:
 ```
 @import url("https://rildev.github.io/stylized/style.min.css");
 @import url("https://rildev.github.io/stylized/scripts/set-gdpr-card-visibility.js");
+@import url("https://rildev.github.io/stylized/scripts/set-sidebar-visibility.js");
 @import url("https://unpkg.com/scrollbooster@2/dist/scrollbooster.min.js");
 @import url("https://rildev.github.io/stylized/scripts/init-scroll-booster.js");
 ```
@@ -76,6 +79,8 @@ With `link` & `script` tags:
   <!-- the following scripts are optional -->
   <!-- show/hide GDPR card -->
   <script src="node_modules/@rildev/stylized/scripts/set-gdpr-card-visibility.js"></script>
+  <!-- show/hide sidebar -->
+  <script src="node_modules/@rildev/stylized/scripts/set-sidebar-visibility.js"></script>
   <!--  scrollable nav overflow -->
   <script src="node_modules/scrollbooster/dist/scrollbooster.min.js"></script>
   <script src="node_modules/@rildev/stylized/scripts/init-scroll-booster.js"></script>
@@ -87,6 +92,7 @@ With `import`:
 ```
 import '@rildev/stylized/style.css';
 import '@rildev/stylized/scripts/set-gdpr-card-visibility';
+import '@rildev/stylized/scripts/set-sidebar-visibility';
 import ScrollBooster from 'scrollbooster';
 import '@rildev/stylized/scripts/init-scroll-booster';
 ```
@@ -151,7 +157,7 @@ VERSION=major npm run package
 - [x] change basic anchor color
 - [x] add link to gdpr in the GDPR card
 - [ ] add real gdpr privacy policy
-- [ ] create aside sticky bar
+- [x] create aside sticky bar
 
 ## Acknowledgement
 
