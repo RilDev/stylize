@@ -152,7 +152,7 @@ nav > div:not(.icon):after {
 @media (min-width: 60rem) {
   /*adjust nav items if has menu icon*/
   nav > div.icon + div {
-    left: -35px;
+    left: -1.75rem;
   }
 }
 
