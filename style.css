@@ -161,6 +161,10 @@ nav ul {
   margin: 0;
   list-style: none;
   display: flex;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-basis: 50rem;
 }
 
 nav ul li {
