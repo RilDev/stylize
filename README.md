@@ -158,6 +158,8 @@ VERSION=major npm run package
 - [x] add link to gdpr in the GDPR card
 - [ ] add real gdpr privacy policy
 - [x] create aside sticky bar
+- [ ] fix broken image
+- [ ] remake gallery with `css grid`
 
 ## Acknowledgement
 
