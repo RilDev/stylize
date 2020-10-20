@@ -1,13 +1,13 @@
 {
   "name": "@rildev/stylized",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Make your prototypes look good with a standard minimal css stylesheet (< 1Kb)!",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "minify": "uglifycss style.css > style.min.css",
     "start": "http-server ./ -o",
-    "package": "gh-packages -c \"npm run minify && rm style.css && mv style.min.css style.css && rm -rf index.html assets\""
+    "package": "gh-packages ${VERSION-patch} -c \"npm run minify && rm style.css && mv style.min.css style.css && rm -rf index.html assets\""
   },
   "repository": {
     "type": "git",
