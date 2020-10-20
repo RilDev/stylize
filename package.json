@@ -1,6 +1,6 @@
 {
   "name": "@rildev/stylized",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Make your prototypes look good with a standard minimal css stylesheet (< 1Kb)!",
   "main": "index.html",
   "scripts": {
@@ -28,15 +28,9 @@
   "devDependencies": {
     "gh-packages": "^0.1.2",
     "http-server": "^0.12.3",
-    "husky": "^4.2.5",
     "uglifycss": "0.0.29"
   },
   "dependencies": {
     "scrollbooster": "^3.0.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "if git-branch-is master; then uglifycss style.css > style.min.css && git add style.min.css; fi"
-    }
   }
 }
