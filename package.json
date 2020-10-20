@@ -1,15 +1,13 @@
 {
   "name": "@rildev/stylized",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Make your prototypes look good with a standard minimal css stylesheet (< 1Kb)!",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "minify": "uglifycss style.css > style.min.css",
     "start": "http-server ./ -o",
-    "prepackage": "npm version --no-git-tag-version ${VERSION-patch} && git add package.json && git commit -m \"update version number\" && git push",
-    "package": "git switch -C package && npm run minify && rm style.css && mv style.min.css style.css && rm -rf index.html assets && git add -A && git commit -m \"ready to publish\" && git push -f origin package && npm publish",
-    "postpackage": "git switch master"
+    "package": "gh-packages -c \"npm run minify && rm style.css && mv style.min.css style.css && rm -rf index.html assets\""
   },
   "repository": {
     "type": "git",
@@ -28,6 +26,7 @@
   },
   "homepage": "https://github.com/RilDev/stylized#readme",
   "devDependencies": {
+    "gh-packages": "^0.1.2",
     "http-server": "^0.12.3",
     "husky": "^4.2.5",
     "uglifycss": "0.0.29"
