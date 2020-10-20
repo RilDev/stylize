@@ -160,6 +160,7 @@ VERSION=major npm run package
 - [x] create aside sticky bar
 - [ ] fix broken image
 - [ ] remake gallery with `css grid`
+- [ ] test for github npm package recommended configuration
 
 ## Acknowledgement
 
